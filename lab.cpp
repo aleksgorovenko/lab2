@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -14,8 +14,8 @@ int main()
 	printf("Input c: ");
 	scanf("%f", &c);
 	
-	d = (b*b) - (4*a*c);
-	if(d >= 0)
+	d = b * b - 4 * a * c;
+	if (d >= 0)
 	{
 		x1 = (-b + sqrt(d)) / (2 * a);
 		x2 = (-b - sqrt(d)) / (2 * a);
